@@ -51,3 +51,4 @@ The script will:
 - CSV files are excluded from git (see `.gitignore`)
 - Update the `CONN` variable in `load_workouts.sh` if using a different connection profile
 
+## DDLs in Snowflake:
