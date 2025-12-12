@@ -1,0 +1,22 @@
+# Data files
+*.csv
+*.json
+*.parquet
+
+# SnowSQL config (may contain credentials)
+.snowsql/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Editor files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Logs
+*.log
+
