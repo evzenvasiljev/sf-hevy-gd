@@ -52,3 +52,10 @@ The script will:
 - Update the `CONN` variable in `load_workouts.sh` if using a different connection profile
 
 ## DDLs in Snowflake:
+
+### Example: Creating BRONZE Schema
+```sql
+CREATE SCHEMA IF NOT EXISTS TRAINING_DB.BRONZE;
+CREATE STAGE IF NOT EXISTS BRONZE.WORKOUT_STAGE;
+-- Add your DDL scripts here
+```
